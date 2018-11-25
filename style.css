@@ -1,0 +1,44 @@
+/*ボタンの設定*/
+label{
+  color: #C2AA64;
+  background-color: #fff;
+  font-size: 100px;
+  padding: 30px 30px 30px 30px;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+}
+
+/*チェックされたときの設定*/
+input{
+  display: none;
+}
+.check_box:checked + .label {
+  background-color: #4C9C9E;
+}
+
+/*メインタイトルの設定*/
+#title {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*背景色の設定*/
+body {
+  width: auto;
+  font-family: 'Noto Serif JP', sans-serif;
+  background-color: #343434;
+  color: white;
+  text-align: center;
+}
+
+/*リセットボタンの設定*/
+#unchecked {
+  cursor: pointer;
+  color: #4C9C9E;
+  padding-top: 100px;
+}
+
+/*「キラ」の文字の設定*/
+#kira {
+  color: #C2AA64;
+}
